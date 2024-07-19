@@ -7,7 +7,7 @@ on:
        KERNEL_DEFCONFIG:
          description: 'Defconfig'
          required: true
-         default: 'vendor/cezanne_user_defconfig'
+         default: 'atom/cezanne_user_defconfig'
        KERNEL_FILE:
          description: 'Your kernel out image name'
          required: true
@@ -38,7 +38,7 @@ on:
        SOURCE_BOOT_IMAGE:
          description: 'Your original boot image url'
          required: false
-         default: 'https://raw.githubusercontent.com/xiaomi-mt6885-devs/android_kernel_xiaomi_mt6885/cgroup-v2/.github/boot.img'
+         default: 'https://github.com/saoshen/android_kernel_xiaomi_mt6873/blob/cgroup-v2/.github/boot.img'
 
 jobs:
   build:
